@@ -1,4 +1,6 @@
-pip3 install gdown
+pip install gdown
+
+pip install -r requirements.txt
 
 #weights
 gdown --fuzzy https://drive.google.com/drive/folders/1LHbTfdIv9IuZD4OFIMkvJvgub_aPwnNm?usp=sharing -O Weights
