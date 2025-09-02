@@ -7,7 +7,7 @@ def get_argparser():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--local_rank', type=int, default=0)
-    parser.add_argument('--config_file', type=str, default='./configs/swisscube.yaml')
+    parser.add_argument('--config_file', type=str, default='configs/swisscube.yaml')
     parser.add_argument('--num_workers', type=int, default=0)
     parser.add_argument('--weight_file', type=str, default='')
     parser.add_argument('--running_device', type=str, default='cuda')
