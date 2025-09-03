@@ -1,14 +1,13 @@
-
 MODEL:
   BACKBONE: 'darknet53'
   ANCHOR_SIZES: [32, 64, 128, 256, 512]
   ANCHOR_STRIDES: [8, 16, 32, 64, 128]
 DATASETS:
-  TRAIN: '/kaggle/input/wide-depth-range-02/Dataset111/speedBOP/training.txt'
-  VALID: '/kaggle/input/wide-depth-range-02/Dataset111/speedBOP/validation.txt'
-  TEST: '/kaggle/input/wide-depth-range-02/Dataset111/speedBOP/testing.txt'
-  MESH_DIR: '/kaggle/input/changes/models/'
-  BBOX_FILE: '/kaggle/input/wide-depth-range-02/Dataset111/speedBOP/swisscube_bbox.json'
+  TRAIN: '../Dataset111/speedBOP/train.py'
+  VALID: '../Dataset111/speedBOP/validation.txt'
+  TEST: '../Dataset111/speedBOP/testing.txt'
+  MESH_DIR: '../Dataset111/speedBOP/models/'
+  BBOX_FILE: '../Dataset111/speedBOP/swisscube_bbox.json'
   MESH_DIAMETERS: [178.46]
   N_CLASS: 2
 INPUT:
