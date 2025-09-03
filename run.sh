@@ -1,11 +1,10 @@
 pip install gdown
 
-pip install -r requirements.txt
-
+pip install numpy scipy pyyaml pillow tqdm opencv-python trimesh tensorboardX
 #weights
-gdown --fuzzy https://drive.google.com/drive/folders/1LHbTfdIv9IuZD4OFIMkvJvgub_aPwnNm?usp=sharing -O Weights
-
+gdown --fuzzy https://drive.google.com/file/d/1q44mQKnetruoQcCla0-4ox0cYJRcHDXY/view?usp=drive_link
 #Dataset
-gdown --fuzzy https://drive.google.com/file/d/19rChDBvXa7gc5zuxiqNWeEPEUZ6kTDEM/view?usp=sharing -O Dataset.zip
+
+gdown --fuzzy https://drive.google.com/file/d/1VSUhLm16JMD4CcS_VlwNlpCOOLQziwWS/view?usp=drive_link
 
 unzip Dataset.zip
